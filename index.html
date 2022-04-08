@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hebrew Date</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="init()">
+        
+        <div class="card">
+
+            <h2>המרת תאריך לועזי לעברי</h2>
+
+            <div class="input-validation">
+                <label>בחר תאריך<input id="input-date" type="date" min="1900-01-01" max="2100-01-01" /></label>
+                <p class="validation"></p>
+            </div>
+
+            <p class="hebrew-date"></p>
+
+        </div>
+
+        <script defer src="main.js"></script>
+    </body>
+</html>
